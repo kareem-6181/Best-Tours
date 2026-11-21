@@ -1,0 +1,205 @@
+/* =====================================
+   AIRPLANE INTRO ANIMATION
+===================================== */
+
+@keyframes airplaneFlight {
+
+    0% {
+        left: -110vw;
+    }
+
+    100% {
+        left: 110vw;
+    }
+
+}
+
+
+/* =====================================
+   HERO CONTENT ANIMATION
+===================================== */
+
+@keyframes heroContentReveal {
+
+    0% {
+        opacity: 0;
+        transform: translateY(-25%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(-50%);
+    }
+
+}
+
+
+/* =====================================
+   REDUCED MOTION
+===================================== */
+
+@media (prefers-reduced-motion: reduce) {
+
+    *,
+    *::before,
+    *::after {
+
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        scroll-behavior: auto !important;
+        transition-duration: 0.01ms !important;
+
+    }
+
+}
+
+
+/* =====================================================
+   DESTINATIONS ANIMATIONS
+===================================================== */
+
+
+/* HEADING REVEAL */
+
+.destinations-heading.dest-revealed {
+
+    animation: destHeadingReveal 0.7s ease both;
+
+}
+
+
+@keyframes destHeadingReveal {
+
+    0% {
+        opacity: 0;
+        transform: translateY(25px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+
+
+/* CARD REVEAL */
+
+.destination-card.dest-revealed {
+
+    animation: destCardReveal 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
+
+}
+
+
+@keyframes destCardReveal {
+
+    0% {
+        opacity: 0;
+        transform: translateY(25px) scale(0.98);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+
+}
+
+
+/* STAGGER */
+
+.destination-card:nth-child(1).dest-revealed {
+    animation-delay: 0.05s;
+}
+
+.destination-card:nth-child(2).dest-revealed {
+    animation-delay: 0.1s;
+}
+
+.destination-card:nth-child(3).dest-revealed {
+    animation-delay: 0.15s;
+}
+
+.destination-card:nth-child(4).dest-revealed {
+    animation-delay: 0.2s;
+}
+
+.destination-card:nth-child(5).dest-revealed {
+    animation-delay: 0.25s;
+}
+
+
+/* BACKGROUND FLOAT */
+
+.dest-glow-one {
+
+    animation: destGlowFloat 18s ease-in-out infinite alternate;
+
+}
+
+
+.dest-glow-two {
+
+    animation: destGlowFloat 22s ease-in-out infinite alternate-reverse;
+
+}
+
+
+@keyframes destGlowFloat {
+
+    0% {
+        transform: translate3d(0, 0, 0) scale(1);
+    }
+
+    50% {
+        transform: translate3d(20px, 15px, 0) scale(1.08);
+    }
+
+    100% {
+        transform: translate3d(-10px, 25px, 0) scale(0.98);
+    }
+
+}
+
+
+/* HEADING LINE */
+
+.dest-heading-line {
+
+    transform-origin: center;
+    animation: destLineReveal 0.8s 0.3s ease both;
+
+}
+
+
+@keyframes destLineReveal {
+
+    0% {
+        transform: scaleX(0);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scaleX(1);
+        opacity: 1;
+    }
+
+}
+
+
+/* ACCESSIBILITY */
+
+@media (prefers-reduced-motion: reduce) {
+
+    .destinations-heading.dest-revealed,
+    .destination-card.dest-revealed,
+    .dest-glow-one,
+    .dest-glow-two,
+    .dest-heading-line {
+
+        animation: none !important;
+
+    }
+
+}

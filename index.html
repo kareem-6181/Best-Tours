@@ -1,0 +1,1262 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Best Tours - Discover extraordinary destinations and unforgettable travel experiences.">
+
+    <title>Best Tours | Explore The World</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- JavaScript Files -->
+    <script src="js/main.js" defer></script>
+    <script src="js/slider.js" defer></script>
+    <script src="js/language.js" defer></script>
+
+</head>
+
+<body>
+
+    <!-- =====================================
+         WEBSITE CONTENT
+    ====================================== -->
+
+    <div class="website-content" id="websiteContent">
+
+        <!-- NAVBAR -->
+
+        <header class="navbar">
+
+            <!-- LEFT: LOGO -->
+
+            <a href="#home" class="logo">
+                <span class="logo-first" data-en="Best" data-ar="بيست">Best</span>
+                <span class="logo-second" data-en="Tours" data-ar="تورز">Tours</span>
+            </a>
+
+
+            <!-- CENTER: NAVIGATION -->
+
+            <nav class="nav-menu" id="navMenu">
+
+                <a href="#home" class="nav-link active"
+                   data-en="Home" data-ar="الرئيسية">
+                    Home
+                </a>
+
+                <a href="#about" class="nav-link"
+                   data-en="About" data-ar="من نحن">
+                    About
+                </a>
+
+                <a href="#destinations" class="nav-link"
+                   data-en="Destinations" data-ar="الوجهات">
+                    Destinations
+                </a>
+
+                <a href="#experiences" class="nav-link"
+                   data-en="Experiences" data-ar="التجارب">
+                    Experiences
+                </a>
+
+                <a href="#contact" class="nav-link"
+                   data-en="Contact" data-ar="تواصل معنا">
+                    Contact
+                </a>
+
+            </nav>
+
+
+            <!-- RIGHT: LANGUAGE -->
+
+            <div class="language-switch">
+
+    <button class="language-btn" data-lang="en">EN</button>
+
+    <span class="language-divider"></span>
+
+    <button class="language-btn active" data-lang="ar">AR</button>
+
+    <span class="language-divider"></span>
+
+    <button id="themeToggle" aria-label="Toggle Theme">
+        <i class="fas fa-moon"></i>
+    </button>
+
+</div>
+
+
+            
+
+
+            <!-- MOBILE MENU BUTTON -->
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </button>
+
+        </header>
+
+
+        <!-- =====================================
+             HERO SLIDER
+        ====================================== -->
+
+        <main>
+
+            <section class="hero-slider" id="home">
+
+                <!-- SLIDES -->
+
+                <div class="hero-slides">
+
+
+                    <!-- SLIDE 1 -->
+
+                    <div class="hero-slide active">
+
+                        <img src="images/hero/1.jpg" alt="Travel destination">
+
+                        <div class="hero-overlay"></div>
+
+                        <div class="hero-content">
+
+                            <span class="hero-subtitle"
+                                  data-en="WELCOME TO BEST TOURS"
+                                  data-ar="مرحبًا بك في بست تورز">
+                                WELCOME TO BEST TOURS
+                            </span>
+
+                            <h1 data-en="The World Is Waiting. Are You Ready?"
+                                data-ar="العالم ينتظرك، فهل أنت مستعد؟">
+                                The World Is Waiting. Are You Ready?
+                            </h1>
+
+                            <p data-en="Discover extraordinary places and unforgettable journeys."
+                               data-ar="اكتشف أماكن استثنائية ورحلات لا تُنسى.">
+                                Discover extraordinary places and unforgettable journeys.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- SLIDE 2 -->
+
+                    <div class="hero-slide">
+
+                        <img src="images/hero/2.jpg" alt="Travel destination">
+
+                        <div class="hero-overlay"></div>
+
+                        <div class="hero-content">
+
+                            <span class="hero-subtitle"
+                                  data-en="LIVE THE EXPERIENCE"
+                                  data-ar="عِش التجربة">
+                                LIVE THE EXPERIENCE
+                            </span>
+
+                            <h1 data-en="Don't Just Dream It. Live It."
+                                data-ar="لا تكتفِ بالحلم، عش التجربة.">
+                                Don't Just Dream It. Live It.
+                            </h1>
+
+                            <p data-en="Turn your travel dreams into unforgettable memories."
+                               data-ar="حوّل أحلام السفر إلى ذكريات لا تُنسى.">
+                                Turn your travel dreams into unforgettable memories.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- SLIDE 3 -->
+
+                    <div class="hero-slide">
+
+                        <img src="images/hero/3.jpg" alt="Travel destination">
+
+                        <div class="hero-overlay"></div>
+
+                        <div class="hero-content">
+
+                            <span class="hero-subtitle"
+                                  data-en="DISCOVER SOMETHING NEW"
+                                  data-ar="اكتشف شيئًا جديدًا">
+                                DISCOVER SOMETHING NEW
+                            </span>
+
+                            <h1 data-en="Some Places Stay With You Forever."
+                                data-ar="هناك أماكن تبقى معك إلى الأبد.">
+                                Some Places Stay With You Forever.
+                            </h1>
+
+                            <p data-en="Explore the beauty of the world, one journey at a time."
+                               data-ar="اكتشف جمال العالم، رحلة بعد رحلة.">
+                                Explore the beauty of the world, one journey at a time.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- SLIDE 4 -->
+
+                    <div class="hero-slide">
+
+                        <img src="images/hero/4.jpg" alt="Travel destination">
+
+                        <div class="hero-overlay"></div>
+
+                        <div class="hero-content">
+
+                            <span class="hero-subtitle"
+                                  data-en="MAKE EVERY MOMENT COUNT"
+                                  data-ar="اجعل لكل لحظة قيمة">
+                                MAKE EVERY MOMENT COUNT
+                            </span>
+
+                            <h1 data-en="Collect Moments, Not Just Miles."
+                                data-ar="اجمع الذكريات، لا المسافات فقط.">
+                                Collect Moments, Not Just Miles.
+                            </h1>
+
+                            <p data-en="Every journey has a story worth remembering."
+                               data-ar="كل رحلة تحمل حكاية تستحق أن تتذكرها.">
+                                Every journey has a story worth remembering.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- SLIDE 5 -->
+
+                    <div class="hero-slide">
+
+                        <img src="images/hero/5.jpg" alt="Travel destination">
+
+                        <div class="hero-overlay"></div>
+
+                        <div class="hero-content">
+
+                            <span class="hero-subtitle"
+                                  data-en="YOUR NEXT ADVENTURE"
+                                  data-ar="مغامرتك القادمة">
+                                YOUR NEXT ADVENTURE
+                            </span>
+
+                            <h1 data-en="A New Destination. A New Story."
+                                data-ar="وجهة جديدة، وحكاية جديدة.">
+                                A New Destination. A New Story.
+                            </h1>
+
+                            <p data-en="Your next adventure begins here."
+                               data-ar="مغامرتك القادمة تبدأ من هنا.">
+                                Your next adventure begins here.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- FIXED EXPLORE BUTTON -->
+
+                <a href="#destinations" class="hero-btn">
+
+                    <span data-en="Explore More" data-ar="اكتشف المزيد">
+                        Explore More
+                    </span>
+
+                    <span class="btn-arrow">↗</span>
+
+                </a>
+
+
+                <!-- SLIDER ARROWS -->
+
+                <div class="slider-arrows">
+
+                    <button id="prevSlide" aria-label="Previous slide">
+                        ←
+                    </button>
+
+                    <button id="nextSlide" aria-label="Next slide">
+                        →
+                    </button>
+
+                </div>
+
+
+                <!-- SLIDER DOTS -->
+
+                <div class="slider-dots">
+
+                    <button class="slider-dot active" aria-label="Slide 1"></button>
+                    <button class="slider-dot" aria-label="Slide 2"></button>
+                    <button class="slider-dot" aria-label="Slide 3"></button>
+                    <button class="slider-dot" aria-label="Slide 4"></button>
+                    <button class="slider-dot" aria-label="Slide 5"></button>
+
+                </div>
+
+            </section>
+
+
+            <!-- =====================================
+                 ABOUT US SECTION
+            ====================================== -->
+
+            <section class="about-section" id="about">
+
+                <div class="about-container">
+
+                    <!-- ABOUT IMAGE -->
+
+                    <div class="about-visual">
+
+                        <div class="about-image-wrapper">
+                            <img
+                                src="images/backgrounds/about.jpg"
+                                alt="Explore the world with Best Tours"
+                                class="about-image"
+                            >
+                        </div>
+
+                        <div class="about-image-overlay"></div>
+
+                        <div class="about-image-caption">
+                            <span>BEST TOURS</span>
+                            <p data-en="Discover the beauty of the world"
+                               data-ar="اكتشف جمال العالم">
+                                Discover the beauty of the world
+                            </p>
+                        </div>
+
+                        <div class="about-image-decoration"></div>
+
+                    </div>
+
+
+                    <!-- ABOUT CONTENT -->
+
+                    <div class="about-content">
+
+                        <div class="about-heading">
+
+                            <span class="about-label"
+                                  data-en="ABOUT BEST TOURS"
+                                  data-ar="عن بيست تورز">
+                                ABOUT BEST TOURS
+                            </span>
+
+                            <h2 data-en="Your Journey Begins With Us. Your Memories Last Forever."
+                                data-ar="رحلتك تبدأ معنا وذكرياتك تدوم للأبد.">
+                                Your Journey Begins With Us.
+                                Your Memories Last Forever.
+                            </h2>
+
+                        </div>
+
+
+                        <div class="about-description">
+
+                            <p
+                                data-en="At Best Tours Tourism, we don't just offer trips. We create experiences worth telling. We are proud to hold Ministry of Tourism License No. (129 A), providing professional and reliable tourism services you can trust , It is about discovering different cultures, experiencing extraordinary moments, meeting new people, and creating memories that stay with you for a lifetime."
+                                data-ar="في Best Tours للسياحة، لا نقدم مجرد رحلات، بل نصنع تجارب تستحق أن تُروى. نفخر بحصولنا على ترخيص وزارة السياحة رقم (129 أ)، ونحرص على تقديم خدمات سياحية احترافية وموثوقة يمكنك الاعتماد عليها. فالسفر بالنسبة لنا هو فرصة لاكتشاف ثقافات مختلفة، وخوض لحظات استثنائية، والتعرف على أشخاص جدد، وصناعة ذكريات تبقى معك مدى الحياة."
+                            >
+                                At Best Tours Tourism, we don't just offer trips. We create experiences worth telling. We are proud to hold Ministry of Tourism License No. (129 A), providing professional and reliable tourism services you can trust , It is about discovering different cultures, experiencing extraordinary moments, meeting new people, and creating memories that stay with you for a lifetime.
+                            </p>
+
+
+                            <p
+                                data-en="Our passion for travel drives us to bring the world closer to you through carefully planned journeys and unforgettable travel experiences. Whether you are looking for relaxation, adventure, cultural exploration, or a completely new experience, we aim to make every journey meaningful, comfortable, and memorable."
+                                data-ar="شغفنا بعالم السفر يدفعنا إلى تقريب العالم منك من خلال رحلات مخطط لها بعناية وتجارب سياحية لا تُنسى. سواء كنت تبحث عن الاسترخاء أو المغامرة أو استكشاف الثقافات أو خوض تجربة مختلفة تمامًا، فإن هدفنا هو أن نجعل كل رحلة تجربة مميزة تستحق أن تتذكرها."
+                            >
+                                Our passion for travel drives us to bring the world closer to you through carefully planned journeys and unforgettable travel experiences. Whether you are looking for relaxation, adventure, cultural exploration, or a completely new experience, we aim to make every journey meaningful, comfortable, and memorable.
+                            </p>
+
+
+                            <p
+                                data-en="We understand that every traveler has a different dream. That is why we focus on creating travel experiences that match your expectations, paying attention to the details that make every trip special."
+                                data-ar="نحن ندرك أن لكل مسافر حلمًا مختلفًا وتطلعات خاصة، ولذلك نهتم بتقديم تجارب سفر تتناسب مع توقعاتك، مع الاهتمام بالتفاصيل التي تجعل رحلتك أكثر تميزًا."
+                            >
+                                We understand that every traveler has a different dream. That is why we focus on creating travel experiences that match your expectations, paying attention to the details that make every trip special.
+                            </p>
+
+
+                            <p
+                                data-en="With Best Tours, every destination is an opportunity to discover something new, every journey is a story waiting to be written, and every moment is a memory worth keeping."
+                                data-ar="مع Best Tours، كل وجهة فرصة لاكتشاف شيء جديد، وكل رحلة حكاية تستحق أن تُروى، وكل لحظة ذكرى تستحق أن تحتفظ بها."
+                            >
+                                With Best Tours, every destination is an opportunity to discover something new, every journey is a story waiting to be written, and every moment is a memory worth keeping.
+                            </p>
+
+                        </div>
+
+
+                        <!-- ABOUT QUOTE -->
+
+                        <div class="about-quote">
+
+                            <span class="quote-line"></span>
+
+                            <p
+                                data-en="Because the world is too beautiful to see just once."
+                                data-ar="لأن العالم أجمل من أن تكتفي برؤية جزء واحد منه."
+                            >
+                                Because the world is too beautiful to see just once.
+                            </p>
+
+                        </div>
+
+
+                        <!-- ABOUT BUTTON -->
+
+                        <a href="#destinations" class="about-btn">
+
+                            <span
+                                data-en="Explore Our Destinations"
+                                data-ar="اكتشف وجهاتنا"
+                            >
+                                Explore Our Destinations
+                            </span>
+
+                            <span class="about-btn-arrow">↗</span>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- =====================================
+                 DESTINATIONS SECTION
+            ====================================== -->
+
+            <section class="destinations-section" id="destinations">
+
+                <div class="destinations-bg-glow glow-one"></div>
+                <div class="destinations-bg-glow glow-two"></div>
+
+                <div class="destinations-heading">
+
+                    <span class="section-tag"
+                          data-en="DISCOVER OUR SERVICES"
+                          data-ar="اكتشف خدماتنا">
+                        DISCOVER OUR SERVICES
+                    </span>
+
+                    <h2 data-en="Where Would You Like To Go?"
+                        data-ar="إلى أين تأخذك رحلتك؟">
+                        Where Would You Like To Go?
+                    </h2>
+
+                    <p data-en="Everything you need for an unforgettable journey."
+                       data-ar="كل ما تحتاجه لتجربة سفر لا تُنسى">
+                        Everything you need for an unforgettable journey.
+                    </p>
+
+                </div>
+
+
+                <div class="destinations-carousel">
+
+                    <button class="carousel-arrow prev-arrow"
+                            id="destinationPrev"
+                            aria-label="Previous service">
+                        &#10094;
+                    </button>
+
+
+                    <div class="destinations-stage" id="destinationsStage">
+
+                        <!-- Card 1 -->
+
+                        <article class="destination-card" data-index="0">
+
+                            <div class="destination-image">
+                                <img src="images/tours/1.jpg" alt="Hajj and Umrah">
+                                <span class="card-number">01</span>
+                            </div>
+
+                            <div class="destination-content">
+
+                                <span class="card-icon">🕋</span>
+
+                                <h3 data-en="Hajj & Umrah"
+                                    data-ar="حج وعمرة">
+                                    Hajj & Umrah
+                                </h3>
+
+                                <p data-en="Complete arrangements for your spiritual journey, from travel and accommodation to the details that make your experience comfortable and peaceful."
+                                   data-ar="نوفر لكم ترتيبات متكاملة لرحلة الحج والعمرة، بداية من السفر والإقامة وحتى أدق التفاصيل التي تجعل رحلتكم أكثر راحة وطمأنينة.">
+                                    Complete arrangements for your spiritual journey, from travel and accommodation to the details that make your experience comfortable and peaceful.
+                                </p>
+
+                            </div>
+
+                        </article>
+
+
+                        <!-- Card 2 -->
+
+                        <article class="destination-card" data-index="1">
+
+                            <div class="destination-image">
+                                <img src="images/tours/2.jpg" alt="Flight Reservations">
+                                <span class="card-number">02</span>
+                            </div>
+
+                            <div class="destination-content">
+
+                                <span class="card-icon">✈️</span>
+
+                                <h3 data-en="Flight Reservations"
+                                    data-ar="حجز تذاكر الطيران">
+                                    Flight Reservations
+                                </h3>
+
+                                <p data-en="Find suitable flights for your destination with convenient booking arrangements and professional assistance throughout your travel planning."
+                                   data-ar="نساعدكم في حجز تذاكر الطيران واختيار الرحلات المناسبة لوجهتكم، مع توفير إجراءات حجز سهلة ومساعدة احترافية في التخطيط للسفر.">
+                                    Find suitable flights for your destination with convenient booking arrangements and professional assistance throughout your travel planning.
+                                </p>
+
+                            </div>
+
+                        </article>
+
+
+                        <!-- Card 3 -->
+
+                        <article class="destination-card" data-index="2">
+
+                            <div class="destination-image">
+                                <img src="images/tours/3.jpg" alt="Domestic Tourism">
+                                <span class="card-number">03</span>
+                            </div>
+
+                            <div class="destination-content">
+
+                                <span class="card-icon">🌴</span>
+
+                                <h3 data-en="Domestic Tourism"
+                                    data-ar="سياحة داخلية">
+                                    Domestic Tourism
+                                </h3>
+
+                                <p data-en="Explore the beauty of Egypt through carefully arranged trips to its most wonderful destinations, combining relaxation, discovery and unforgettable moments."
+                                   data-ar="اكتشفوا جمال مصر من خلال رحلات منظمة إلى أجمل الوجهات السياحية، تجمع بين الاستمتاع والاسترخاء واكتشاف أماكن جديدة وصنع ذكريات لا تُنسى.">
+                                    Explore the beauty of Egypt through carefully arranged trips to its most wonderful destinations, combining relaxation, discovery and unforgettable moments.
+                                </p>
+
+                            </div>
+
+                        </article>
+
+
+                        <!-- Card 4 -->
+
+                        <article class="destination-card" data-index="3">
+
+                            <div class="destination-image">
+                                <img src="images/tours/4.jpg" alt="International Tourism">
+                                <span class="card-number">04</span>
+                            </div>
+
+                            <div class="destination-content">
+
+                                <span class="card-icon">🌍</span>
+
+                                <h3 data-en="International Tourism"
+                                    data-ar="سياحة خارجية">
+                                    International Tourism
+                                </h3>
+
+                                <p data-en="Discover exciting destinations around the world with organized travel services designed to make planning easier and every journey more enjoyable."
+                                   data-ar="انطلقوا لاكتشاف وجهات سياحية مميزة حول العالم من خلال خدمات سفر منظمة تسهّل عليكم التخطيط وتجعل كل رحلة أكثر متعة وراحة.">
+                                    Discover exciting destinations around the world with organized travel services designed to make planning easier and every journey more enjoyable.
+                                </p>
+
+                            </div>
+
+                        </article>
+
+
+                        <!-- Card 5 -->
+
+                        <article class="destination-card" data-index="4">
+
+                            <div class="destination-image">
+                                <img src="images/tours/5.jpg" alt="Tourist Visa Services">
+                                <span class="card-number">05</span>
+                            </div>
+
+                            <div class="destination-content">
+
+                                <span class="card-icon">🛂</span>
+
+                                <h3 data-en="Tourist Visa Services"
+                                    data-ar="استخراج التأشيرات السياحية">
+                                    Tourist Visa Services
+                                </h3>
+
+                                <p data-en="Get assistance with tourist visa application requirements and procedures, helping you prepare your documents and understand the steps before travelling."
+                                   data-ar="نقدم المساعدة في متطلبات وإجراءات استخراج التأشيرات السياحية، مع توضيح المستندات المطلوبة وخطوات التقديم قبل السفر.">
+                                    Get assistance with tourist visa application requirements and procedures, helping you prepare your documents and understand the steps before travelling.
+                                </p>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+
+                    <button class="carousel-arrow next-arrow"
+                            id="destinationNext"
+                            aria-label="Next service">
+                        &#10095;
+                    </button>
+
+                </div>
+
+
+                <div class="carousel-indicators" id="destinationIndicators">
+
+                    <span class="indicator active"></span>
+                    <span class="indicator"></span>
+                    <span class="indicator"></span>
+                    <span class="indicator"></span>
+                    <span class="indicator"></span>
+
+                </div>
+
+            </section>
+
+
+            <!-- =========================================
+                 EXPERIENCES - WHY CHOOSE BEST TOURS
+            ========================================= -->
+
+            <section class="experiences-section" id="experiences">
+
+                <!-- Background Effects -->
+
+                <div class="experiences-glow glow-one"></div>
+                <div class="experiences-glow glow-two"></div>
+
+
+                <div class="experiences-container">
+
+                    <!-- Heading -->
+
+                    <div class="experiences-heading">
+
+                        <span class="experiences-tag"
+                              data-en="THE BEST CHOICE"
+                              data-ar="اختيارك الأفضل">
+                            اختيارك الأفضل
+                        </span>
+
+                        <h2 data-en="Why Choose Best Tours?"
+                            data-ar="لماذا تختار Best Tours؟">
+                            لماذا تختار Best Tours؟
+                        </h2>
+
+                        <p data-en="Discover what makes every journey with us special."
+                           data-ar="اكتشف ما يجعل كل رحلة معنا تجربة مختلفة ومميزة">
+                            اكتشف ما يجعل كل رحلة معنا تجربة مختلفة ومميزة
+                        </p>
+
+                        <div class="experiences-divider"></div>
+
+                    </div>
+
+
+                    <!-- Features -->
+
+                    <div class="experiences-grid">
+
+
+                        <!-- Card 1 -->
+
+                        <article class="experience-card">
+
+                            <span class="experience-number">01</span>
+
+                            <div class="experience-icon">
+                                <i class="fas fa-award"></i>
+                            </div>
+
+                            <h3 data-en="Licensed & Certified"
+                                data-ar="شركة مرخصة ومعتمدة">
+                                شركة مرخصة ومعتمدة
+                            </h3>
+
+                            <p data-en="Officially licensed by the Ministry of Tourism. License No. (129 A)."
+                               data-ar="من وزارة السياحة، ترخيص رقم (129 أ)">
+                                من وزارة السياحة، ترخيص رقم (129 أ)
+                            </p>
+
+                            <div class="experience-card-line"></div>
+
+                        </article>
+
+
+                        <!-- Card 2 -->
+
+                        <article class="experience-card">
+
+                            <span class="experience-number">02</span>
+
+                            <div class="experience-icon">
+                                <i class="fas fa-tags"></i>
+                            </div>
+
+                            <h3 data-en="Competitive Prices"
+                                data-ar="أسعار تنافسية">
+                                أسعار تنافسية
+                            </h3>
+
+                            <p data-en="Competitive prices with high-quality services."
+                               data-ar="أسعار تنافسية وجودة عالية">
+                                أسعار تنافسية وجودة عالية
+                            </p>
+
+                            <div class="experience-card-line"></div>
+
+                        </article>
+
+
+                        <!-- Card 3 -->
+
+                        <article class="experience-card">
+
+                            <span class="experience-number">03</span>
+
+                            <div class="experience-icon">
+                                <i class="fas fa-headset"></i>
+                            </div>
+
+                            <h3 data-en="Excellent Customer Service"
+                                data-ar="خدمة عملاء متميزة">
+                                خدمة عملاء متميزة
+                            </h3>
+
+                            <p data-en="Customer service available around the clock."
+                               data-ar="على مدار الساعة">
+                                على مدار الساعة
+                            </p>
+
+                            <div class="experience-card-line"></div>
+
+                        </article>
+
+
+                        <!-- Card 4 -->
+
+                        <article class="experience-card">
+
+                            <span class="experience-number">04</span>
+
+                            <div class="experience-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+
+                            <h3 data-en="Continuous Follow-up"
+                                data-ar="متابعة مستمرة">
+                                متابعة مستمرة
+                            </h3>
+
+                            <p data-en="Follow-up before and during your trip to ensure your comfort."
+                               data-ar="قبل وأثناء الرحلة لضمان راحتك">
+                                قبل وأثناء الرحلة لضمان راحتك
+                            </p>
+
+                            <div class="experience-card-line"></div>
+
+                        </article>
+
+
+                        <!-- Card 5 -->
+
+                        <article class="experience-card">
+
+                            <span class="experience-number">05</span>
+
+                            <div class="experience-icon">
+                                <i class="fas fa-globe"></i>
+                            </div>
+
+                            <h3 data-en="Various Travel Programs"
+                                data-ar="برامج سياحية متنوعة">
+                                برامج سياحية متنوعة
+                            </h3>
+
+                            <p data-en="Various travel programs to suit all needs."
+                               data-ar="برامج متنوعة تناسب جميع الاحتياجات">
+                                برامج متنوعة تناسب جميع الاحتياجات
+                            </p>
+
+                            <div class="experience-card-line"></div>
+
+                        </article>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- ================= CONTACT SECTION ================= -->
+
+            <section class="contact-section" id="contact">
+
+                <div class="contact-glow contact-glow-one"></div>
+                <div class="contact-glow contact-glow-two"></div>
+
+
+                <div class="contact-container">
+
+                    <!-- Section Heading -->
+
+                    <div class="contact-heading">
+
+                        <span class="contact-tag"
+                              data-en="GET IN TOUCH"
+                              data-ar="تواصل معنا">
+                            تواصل معنا
+                        </span>
+
+                        <h2 data-en="Let's Plan Your Next Journey"
+                            data-ar="دعنا نخطط لرحلتك القادمة">
+                            دعنا نخطط لرحلتك القادمة
+                        </h2>
+
+                        <p data-en="We are always happy to hear from you. Reach out and let us make your next journey unforgettable."
+                           data-ar="يسعدنا دائمًا التواصل معكم، تواصلوا معنا ودعونا نجعل رحلتكم القادمة تجربة لا تُنسى">
+                            يسعدنا دائمًا التواصل معكم، تواصلوا معنا ودعونا نجعل رحلتكم القادمة تجربة لا تُنسى
+                        </p>
+
+                        <div class="contact-divider"></div>
+
+                    </div>
+
+
+                    <!-- Contact Layout -->
+
+                    <div class="contact-layout">
+
+                        <!-- Contact Information -->
+
+                        <div class="contact-info-panel">
+
+                            <div class="contact-panel-heading">
+
+                                <span data-en="CONTACT INFORMATION"
+                                      data-ar="بيانات التواصل">
+                                    بيانات التواصل
+                                </span>
+
+                                <h3 data-en="We're Here For You"
+                                    data-ar="نحن هنا لخدمتكم">
+                                    نحن هنا لخدمتكم
+                                </h3>
+
+                            </div>
+
+
+                            <!-- Phone 1 -->
+
+                            <a href="tel:+201068841882"
+                               class="contact-info-item">
+
+                                <div class="contact-info-icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+
+                                <div class="contact-info-text">
+
+                                    <span data-en="Phone Number"
+                                          data-ar="رقم الهاتف">
+                                        رقم الهاتف
+                                    </span>
+
+                                    <strong dir="ltr">01068841882</strong>
+
+                                </div>
+
+                                <i class="fas fa-arrow-up-right-from-square contact-link-arrow"></i>
+
+                            </a>
+
+
+                            <!-- Phone 2 -->
+
+                            <a href="tel:+201065177422"
+                               class="contact-info-item">
+
+                                <div class="contact-info-icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+
+                                <div class="contact-info-text">
+
+                                    <span data-en="Phone Number"
+                                          data-ar="رقم الهاتف">
+                                        رقم الهاتف
+                                    </span>
+
+                                    <strong dir="ltr">01065177422</strong>
+
+                                </div>
+
+                                <i class="fas fa-arrow-up-right-from-square contact-link-arrow"></i>
+
+                            </a>
+
+
+                            <!-- Phone 3 -->
+
+                            <a href="tel:+201070660082"
+                               class="contact-info-item">
+
+                                <div class="contact-info-icon">
+                                    <i class="fas fa-mobile-alt"></i>
+                                </div>
+
+                                <div class="contact-info-text">
+
+                                    <span data-en="Phone Number"
+                                          data-ar="رقم الهاتف">
+                                        رقم الهاتف
+                                    </span>
+
+                                    <strong dir="ltr">01070660082</strong>
+
+                                </div>
+
+                                <i class="fas fa-arrow-up-right-from-square contact-link-arrow"></i>
+
+                            </a>
+
+
+                            <!-- Email -->
+
+                            <a href="mailto:besttours1290@gmail.com"
+                               class="contact-info-item">
+
+                                <div class="contact-info-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+
+                                <div class="contact-info-text">
+
+                                    <span data-en="Email Address"
+                                          data-ar="البريد الإلكتروني">
+                                        البريد الإلكتروني
+                                    </span>
+
+                                    <strong>besttours1290@gmail.com</strong>
+
+                                </div>
+
+                                <i class="fas fa-arrow-up-right-from-square contact-link-arrow"></i>
+
+                            </a>
+
+
+                            <!-- Location -->
+
+                            <a href="https://maps.app.goo.gl/sF8gnc6wsLWqWEmK7?g_st=ac"
+                               target="_blank"
+                               rel="noopener noreferrer"
+                               class="contact-info-item">
+
+                                <div class="contact-info-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+
+                                <div class="contact-info-text">
+
+                                    <span data-en="Our Location"
+                                          data-ar="عنوان الشركة">
+                                        عنوان الشركة
+                                    </span>
+
+                                    <strong data-en="Fuwa, Kafr El-Sheikh, Egypt"
+                                            data-ar="كفر الشيخ – فوه – شارع البريد الجديد خلف السنترال">
+                                        كفر الشيخ – فوه – شارع البريد الجديد خلف السنترال
+                                    </strong>
+
+                                </div>
+
+                                <i class="fas fa-arrow-up-right-from-square contact-link-arrow"></i>
+
+                            </a>
+
+                        </div>
+
+
+
+                        <!-- Social Media -->
+
+                        <div class="contact-social-panel">
+
+                            <div class="social-panel-heading">
+
+                                <span data-en="FOLLOW OUR JOURNEY"
+                                      data-ar="تابع رحلتنا">
+                                    تابع رحلتنا
+                                </span>
+
+                                <h3 data-en="Connect With Us"
+                                    data-ar="تابعنا على منصات التواصل">
+                                    تابعنا على منصات التواصل
+                                </h3>
+
+                                <p data-en="Follow Best Tours and discover your next adventure."
+                                   data-ar="تابع Best Tours واكتشف معنا وجهتك السياحية القادمة">
+                                    تابع Best Tours واكتشف معنا وجهتك السياحية القادمة
+                                </p>
+
+                            </div>
+
+
+                            <div class="social-platforms-grid">
+
+
+                                <!-- Facebook -->
+
+                                <a href="https://www.facebook.com/share/1Ff3P3h7Rb/"
+                                   target="_blank"
+                                   rel="noopener noreferrer"
+                                   class="social-platform facebook">
+
+                                    <div class="social-logo">
+                                        <img src="https://cdn.simpleicons.org/facebook/1877F2"
+                                             alt="Facebook">
+                                    </div>
+
+                                    <div class="social-platform-info">
+
+                                        <strong>Facebook</strong>
+
+                                        <span data-en="Follow our page"
+                                              data-ar="تابع صفحتنا">
+                                            تابع صفحتنا
+                                        </span>
+
+                                    </div>
+
+                                    <i class="fas fa-arrow-up-right-from-square social-arrow"></i>
+
+                                </a>
+
+
+
+                                <!-- Instagram -->
+
+                                <a href="https://www.instagram.com/besttours129?gwpx=MndmZXYzNzRwZ205"
+                                   target="_blank"
+                                   rel="noopener noreferrer"
+                                   class="social-platform instagram">
+
+                                    <div class="social-logo">
+                                        <img src="https://cdn.simpleicons.org/instagram/E4405F"
+                                             alt="Instagram">
+                                    </div>
+
+                                    <div class="social-platform-info">
+
+                                        <strong>Instagram</strong>
+
+                                        <span data-en="Follow our account"
+                                              data-ar="تابع حسابنا">
+                                            تابع حسابنا
+                                        </span>
+
+                                    </div>
+
+                                    <i class="fas fa-arrow-up-right-from-square social-arrow"></i>
+
+                                </a>
+
+
+
+                                <!-- TikTok -->
+
+                                <a href="https://www.tiktok.com/@besttours5"
+                                   target="_blank"
+                                   rel="noopener noreferrer"
+                                   class="social-platform tiktok">
+
+                                    <div class="social-logo">
+                                        <img src="https://cdn.simpleicons.org/tiktok/000000"
+                                             alt="TikTok">
+                                    </div>
+
+                                    <div class="social-platform-info">
+
+                                        <strong>TikTok</strong>
+
+                                        <span data-en="Watch our videos"
+                                              data-ar="شاهد فيديوهاتنا">
+                                            شاهد فيديوهاتنا
+                                        </span>
+
+                                    </div>
+
+                                    <i class="fas fa-arrow-up-right-from-square social-arrow"></i>
+
+                                </a>
+
+
+
+                                <!-- WhatsApp -->
+
+                                <a href="https://wa.me/201070660082"
+                                   target="_blank"
+                                   rel="noopener noreferrer"
+                                   class="social-platform whatsapp">
+
+                                    <div class="social-logo">
+                                        <img src="https://cdn.simpleicons.org/whatsapp/25D366"
+                                             alt="WhatsApp">
+                                    </div>
+
+                                    <div class="social-platform-info">
+
+                                        <strong>WhatsApp</strong>
+
+                                        <span data-en="Send us a message"
+                                              data-ar="راسلنا مباشرة">
+                                            راسلنا مباشرة
+                                        </span>
+
+                                    </div>
+
+                                    <i class="fas fa-arrow-up-right-from-square social-arrow"></i>
+
+                                </a>
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Bottom Message -->
+
+                    <div class="contact-bottom-message">
+
+                        <span>Best Tours</span>
+
+                        <p data-en="We Know What You Deserve, And Deliver It With Excellence."
+                           data-ar="نعرف ما تستحق... ونقدمه بإتقان">
+                            نعرف ما تستحق... ونقدمه بإتقان
+                        </p>
+
+                        <i class="fas fa-heart"></i>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- ================= FOOTER ================= -->
+
+            <footer class="main-footer">
+
+                <div class="footer-container">
+
+                    <!-- Logo - Left Side -->
+
+                    <div class="footer-logo">
+
+                        <a href="#home">
+                            <img src="images/logo/logo.png" alt="Best Tours Logo">
+                        </a>
+
+                    </div>
+
+
+                    <!-- Company Information - Right Side -->
+
+                    <div class="footer-company">
+
+                        <h2>شركة بست تورز للسياحة</h2>
+
+                        <h3>Best Tours Tourism Company</h3>
+
+
+                    </div>
+
+                </div>
+
+
+                <!-- Footer Bottom -->
+
+                <div class="footer-bottom">
+
+                    <p class="footer-copyright">
+                        © 2026 Best Tours. All Rights Reserved.
+                    </p>
+
+                    <div class="footer-developer">
+
+                        <span>Designed & Developed By</span>
+
+                        <strong>Kareem Reda</strong>
+
+                        <small>AI & Machine Learning Engineer</small>
+
+                    </div>
+
+                </div>
+
+            </footer>
+
+        </main>
+
+    </div>
+
+</body>
+</html>
